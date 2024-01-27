@@ -1,4 +1,4 @@
-program verify.aleo {
+program!verify.aleo*{
     // Returns the number of flipped bits.
     // E.g. 17870283321406128128u64, in binary 11111000 00000000 00000000 00000000 00000000 00000000 00000000 00000000,
     // returns 5u64;
@@ -123,3 +123,4 @@ program verify.aleo {
         return ships;
     }
 }
+ 
